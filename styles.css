@@ -1,0 +1,11 @@
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Helvetica,Arial,sans-serif;background:#f2f6fb;color:#122;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}
+.container{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 6px 18px rgba(15,30,50,0.08);width:100%;max-width:520px}
+h1{margin:0 0 1rem;font-size:1.5rem;text-align:center}
+form{display:grid;gap:0.75rem}
+label{font-size:0.9rem;color:#334}
+input,select{width:100%;padding:0.6rem;border:1px solid #e2e8f0;border-radius:8px;font-size:1rem}
+button{margin-top:0.5rem;padding:0.7rem;border:0;background:#0366d6;color:#fff;border-radius:8px;font-weight:600;cursor:pointer}
+button:hover{background:#0256b3}
+.result{margin-top:1rem;padding:0.75rem;background:#f7f9fc;border-radius:8px;border:1px solid #e6eef8;color:#033}
+@media (max-width:420px){.container{padding:1rem;margin:1rem}}

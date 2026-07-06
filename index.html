@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calculadora de volumen de cilindro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Volumen del cilindro</h1>
+    <form id="calcForm">
+      <label for="radius">Radio (r)</label>
+      <input type="number" id="radius" name="radius" step="any" min="0" required>
+
+      <label for="height">Altura (h)</label>
+      <input type="number" id="height" name="height" step="any" min="0" required>
+
+      <label for="unit">Unidades</label>
+      <select id="unit" name="unit">
+        <option value="m">m</option>
+        <option value="cm">cm</option>
+        <option value="mm">mm</option>
+      </select>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="result" class="result" aria-live="polite"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
